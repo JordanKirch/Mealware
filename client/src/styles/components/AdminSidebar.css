@@ -1,0 +1,41 @@
+#admin-sidebar {
+    background-color: #F2F2F2;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 70px;
+    width: 200px;
+}
+
+#admin-sidebar ul {
+    padding: 0;
+    margin: 0;
+}
+
+#admin-sidebar ul li {
+    cursor: pointer;
+    list-style: none;
+    padding: 15px 20px;
+}
+
+#admin-sidebar ul li:hover {
+    background-color: #E0E0E0;
+}
+
+#admin-sidebar ul li:active {
+    font-weight: 500;
+}
+
+#admin-sidebar ul li.selected {
+    background-color: #E0E0E0;
+    font-weight: 500;
+}
+
+#admin-sidebar ul a {
+    color: black;
+    text-decoration: none;
+}
+
+#admin-sidebar ul li + li {
+    border-top: 1px solid #E0E0E0;
+}

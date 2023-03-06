@@ -1,0 +1,42 @@
+.card {
+    background-color: #ffffff;
+    border: 1px solid rgba(116, 116, 116, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 50px 0px;
+}
+
+/* LoginCard */
+#login-card, #signup-card, #forgotinfo-card {
+    margin: auto;
+    max-width: 400px;
+}
+
+#login-card h2, #signup-card h2, #forgotinfo-card h2{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#login-card form, #signup-card form , #forgotinfo-card form{
+    margin: auto;
+    margin-top: 40px;
+    width: fit-content;
+}
+
+#login-card button, #signup-card button, #forgotinfo-card button {
+    margin-top: 40px;
+}
+
+#login-card #additional-links {
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#login-card #additional-links a {
+    display: block;
+}
+
+#login-card #additional-links a:not(:first-child) {
+    margin-top: 30px;
+}

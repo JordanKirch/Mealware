@@ -1,0 +1,32 @@
+#view-account-info, #edit-account-settings {
+    margin: auto;
+    width: fit-content;
+}
+
+#view-account-info h2, #edit-account-settings h2 {
+    text-align: left;
+}
+
+#view-account-info p span {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#edit-account-settings form, #edit-account-settings input {
+    width: 500px;
+}
+
+#edit-account-settings button {
+    width: 80px !important;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#edit-account-settings .form-input label {
+    margin-top: 40px;
+}
+
+#edit-account-settings form:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 40px;
+}

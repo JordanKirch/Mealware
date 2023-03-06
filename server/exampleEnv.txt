@@ -1,0 +1,14 @@
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=root1234
+DB_DATABASE=mealware_dev
+SESSION_SECRET=super-secret-session-key
+
+MODE=dev
+DB_SSH_HOST=coms-319-g20.cs.iastate.edu
+DB_SSH_USER=YOUR_NET_ID
+DB_SSH_PASSWORD=YOUR_NET_ID_PASSWORD
+DEV_DB_HOST=localhost
+DEV_DB_USER=root
+DEV_DB_PASSWORD=comsVMg20
+DEV_DB_NAME=recipeAppDB

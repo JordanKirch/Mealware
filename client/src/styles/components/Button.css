@@ -1,0 +1,31 @@
+
+.btn-primary {
+    background-color: #36994C;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #36994C;
+}
+
+.btn-primary:active {
+    background-color: #2c7c3d;
+    font-size: 17px;
+}
+
+.btn-primary:disabled {
+    background-color: rgba(33,36,44,0.32);
+    color: #ffffff;
+}
+
+.btn-primary:disabled:hover {
+    box-shadow: none !important;
+    cursor: default !important;
+}
